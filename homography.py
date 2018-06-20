@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
+#Choose any image
 img1 = cv2.imread("./img1.jpeg", cv2.IMREAD_COLOR)
 
 print ("Image shape is ", img1.shape)
